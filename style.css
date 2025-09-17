@@ -5,7 +5,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #9e182b;
+    background-color: #b48d66;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -23,8 +23,8 @@ h1 {
 
 /* Paragraph text */
 p {
-  font-size: 32px;      /* make the paragraphs bigger */
-  line-height: 1.7;     /* add some breathing room between lines */
+  font-size: 52px;      /* make the paragraphs bigger */
+  line-height: 2.5;     /* add some breathing room between lines */
   text-align: center;   /* center the text under the button */
   color: black;         /* keep consistent color */
 }
