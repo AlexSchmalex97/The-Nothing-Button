@@ -8,13 +8,37 @@ body {
     background-color: #9e182b;
     font-family: 'Times New Roman', Times, serif;
 }
+
+/* Bubble heading */
 h1 {
     color: black;
-  display: inline-block;        /* keep bubble wrapped around the text */
-  padding: 10px 20px;           /* space inside bubble */
-  border: 2px solid black;      /* outline of the bubble */
-  border-radius: 20px;          /* rounded corners */
-  background-color: lightblue;  /* bubble background */
-  font-family: Arial, sans-serif;
-  font-size: 52px;            /* makes text bigger */
+    display: inline-block;
+    padding: 20px 40px;        /* more padding makes the bubble bigger */
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    font-size: 52px;           /* bigger text */
+}
+
+/* Paragraph text */
+p {
+    font-size: 20px;           /* bump up paragraph text */
+    color: black;
+}
+
+/* Custom button */
+button {
+    font-size: 20px;           /* bigger button text */
+    padding: 10px 20px;        /* bigger button area */
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+/* Button hover effect (optional but fun) */
+button:hover {
+    background-color: #ddd;
 }
