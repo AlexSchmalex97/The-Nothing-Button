@@ -5,9 +5,15 @@ body {
     justify-content: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #e2b4c1;
+    background-color: #9e182b;
     font-family: 'Times New Roman', Times, serif;
 }
 h1 {
-    color:black
+    color: black;
+  display: inline-block;        /* keep bubble wrapped around the text */
+  padding: 10px 20px;           /* space inside bubble */
+  border: 2px solid black;      /* outline of the bubble */
+  border-radius: 20px;          /* rounded corners */
+  background-color: lightblue;  /* bubble background */
+  font-family: Arial, sans-serif;
 }
