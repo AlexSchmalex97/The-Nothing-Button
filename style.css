@@ -23,7 +23,7 @@ h1 {
 
 /* Paragraph text */
 p {
-  font-size: 65px;      /* add some breathing room between lines */
+  font-size: 45px;      /* add some breathing room between lines */
     font-weight: bold;
   text-align: center;   /* center the text under the button */
   color: white;         /* keep consistent color */
