@@ -23,8 +23,10 @@ h1 {
 
 /* Paragraph text */
 p {
-    font-size: 20px;           /* bump up paragraph text */
-    color: black;
+  font-size: 22px;      /* make the paragraphs bigger */
+  line-height: 1.5;     /* add some breathing room between lines */
+  text-align: center;   /* center the text under the button */
+  color: black;         /* keep consistent color */
 }
 
 /* Custom button */
