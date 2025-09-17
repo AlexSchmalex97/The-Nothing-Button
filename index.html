@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head> 
+        <title>The Nothing Button</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>The Nothing Button</h1>
+        <br>
+        <p>This button does nothing</p>
+        <button onclick="showMessage()">Nothing Button</button>
+        <br>
+        <p id="message"></p>
+
+        <script>
+            function showMessage() {
+                document.getElementById("message").innerHTML = "You just <i>love</i> wasting your time, don't ya?";
+            }
+        </script>
+    </body>
+</html>
