@@ -23,10 +23,9 @@ h1 {
 
 /* Paragraph text */
 p {
-  font-size: 52px;      /* make the paragraphs bigger */
-  line-height: 2.5;     /* add some breathing room between lines */
+  font-size: 36px;      /* add some breathing room between lines */
   text-align: center;   /* center the text under the button */
-  color: black;         /* keep consistent color */
+  color: white;         /* keep consistent color */
 }
 
 /* Custom button */
