@@ -5,7 +5,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #b48d66;
+    background-color: #dfc6ac;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -16,14 +16,14 @@ h1 {
     padding: 20px 40px;        /* more padding makes the bubble bigger */
     border: 2px solid black;
     border-radius: 20px;
-    background-color: lightblue;
+    background-color: #b48d66;
     font-family: Arial, sans-serif;
     font-size: 52px;           /* bigger text */
 }
 
 /* Paragraph text */
 p {
-  font-size: 25px;      /* add some breathing room between lines */
+  font-size: 17px;      /* add some breathing room between lines */
     font-weight: bold;
   text-align: center;   /* center the text under the button */
   color: white;         /* keep consistent color */
